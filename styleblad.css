@@ -1,0 +1,149 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #cbcbcb;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 4px;
+  padding-left: 5px;
+  background-color: #9f2b2b;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.winkelwagen {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-png-image-download-pngm-2.png");
+  background-size: contain;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.winkelwagen__aantal:not(:empty) {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: -0.5em;
+  right: -0.9em;
+  line-height: 0.5em;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.AutoSelectie {
+  max-width: 100px;
+}
+
+.AutoBlok {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.AutoSelectieMaster {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 4px 0;
+}
+
+.AutoSelectieMaster2 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.AutoSelectiePrijs {
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 60em) {
+  #uitvoer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+  .AutoBlok:nth-child(even) {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .AutoBlok {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .AutoBlok:nth-child(4n + 1),
+  .AutoBlok:nth-child(4n + 4) {
+    background-color: #9f2b2b;
+    color: #fff;
+    border-radius: 20px;
+  }
+}
+
+.KoopButton {
+  display: block;
+  margin: 20px auto;
+  background-color: #000;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.KoopAuto {
+  display: grid;
+  grid-template-columns: auto 1fr auto 3em;
+  grid-gap: 2em;
+  margin-bottom: 0.5em;
+}
+
+.KoopAutoFoto {
+  max-width: 50px;
+}
+
+.KoopAutoModel {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.KoopAutoDelete {
+  width: 2em;
+  height: 2em;
+  background-image: url("https://image.flaticon.com/icons/png/512/64/64022.png");
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 0.3em;
+  background-color: transparent;
+  transition: background-color 0.3s ease-out;
+}
+
+.KoopAutoDelete:hover {
+  background-color: #fff;
+}
+
+.KoopAutoTekst {
+  grid-column: 2;
+  text-align: right;
+}
+
+.KoopAutoPrijs {
+  grid-column: 3;
+  border-top: 2px solid grey;
+  padding-top: 0.3em;
+}
+
+@media screen and (min-width: 40em) {
+  .KoopAuto {
+    max-width: 40em;
+    margin: 0 auto;
+  }
+}

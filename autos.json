@@ -1,0 +1,92 @@
+[
+  {
+    "merk": "BMW",
+    "cover": "https://images.autowereld.com/1600x1000/122076-p90215443-highres.jpg",
+    "model": ["m4 gts"],
+    "modeljaar": "2016",
+    "land": "Duitsland",
+    "prijs": 100.000,
+    "vermogen": "500 pk"
+  },
+  {
+    "merk": "Mercedes",
+    "cover": "https://static.autoblog.nl/images/wp2017/mercedes-amg-s63-coupe-yellow-night-edition.jpg",
+    "model": ["s63"],
+    "modeljaar": "2013",
+    "land": "Duitsland",
+    "prijs": 150.000,
+    "vermogen": "612 pk"
+  },
+  {
+    "merk": "Ferrari",
+    "cover": "https://i.wheelsage.org/pictures/f/ferrari/488_pista/ferrari_488_pista_8.jpeg",
+    "model": ["488 pista"],
+    "modeljaar": "2019",
+    "land": "Italie",
+    "prijs": 280.000,
+    "vermogen": "492 kW "
+  },
+  {
+    "merk": "Lamborghini",
+    "cover": "https://i.pinimg.com/originals/b5/c7/f8/b5c7f82add9c748003720c53cce8de4a.png",
+    "model": ["aventador svj "],
+    "modeljaar": "2019",
+    "land": "Italie",
+    "prijs": 400.000,
+    "vermogen": "770 pk"
+  },
+  {
+    "merk": "Bugatti",
+    "cover": "https://alle-autos.nl/uploads/2018/03/Bugatti%20Chiron-480x360.jpg",
+    "model": ["chiron"],
+    "modeljaar": "2017",
+    "land": "Frankrijk",
+    "prijs": 900.000,
+    "vermogen": "1500 pk"
+  },
+  {
+    "merk": "Lotus",
+    "cover": "https://media.fastestlaps.com/lotus-exige-cup-430.jpg",
+    "model": ["exige"],
+    "modeljaar": "2010",
+    "land": "Engeland",
+    "prijs": 80.000,
+    "vermogen": "250 pk"
+  },
+  {
+    "merk": "Mclaren",
+    "cover": "https://cdn.carbuzz.com/gallery-images/2016-mclaren-675lt-spider-front-angle-view-carbuzz-543300-840x560.jpg",
+    "model": ["675lt"],
+    "modeljaar": "2013",
+    "land": "Engeland",
+    "prijs": 300.000,
+    "vermogen": "675 pk"
+  },
+  {
+    "merk": "Audi",
+    "cover": "https://s31.wheelsage.org/format/picture/picture-preview-large/a/audi/r8_v10_performance_parts/audi_r8_v10_performance_parts_9.jpg",
+    "model": ["r8"],
+    "modeljaar": "2015",
+    "land": "Duitsland",
+    "prijs": 120.000,
+    "vermogen": "610 pk"
+  },
+  {
+   "merk": "Porsche",
+   "cover": "https://www.autoblog.nl/gallery/0_Tuners/Mansory/Porsche_911_Turbo_S/01-porsche-911-turbo-s-mansory.jpg",
+   "model": ["turbo s"],
+   "modeljaar": "2014",
+   "land": "Duitsland",
+   "prijs": 140.000,
+   "vermogen": "600 pk"
+ },
+ {
+   "merk": "Doge",
+   "cover": "https://the-drive-3.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fused-2018-dodge-challenger-srtdemoncoupe-10218-19507257-1-640.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=f2ac8486cdb1eb586d636d4d781b6790",
+   "model": ["deamon"],
+   "modeljaar": "2019",
+   "land": "Amerika",
+   "prijs": 50.000,
+   "vermogen": "800 pk"
+ }
+]

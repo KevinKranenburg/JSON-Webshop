@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Kies hier een nieuwe auto!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Kevin Kranenburg - www.kevinkranenburg.nl" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleblad.css" />
+  </head>
+
+  <body lang="nl">
+
+    <header class="header">
+      <a href="bestel.html">
+        <div class="winkelwagen"><span class="winkelwagen__aantal"></span></div>
+      </a>
+      <h1>Kies hier een nieuwe auto!</h1>
+    </header>
+
+    <select id="kenmerk">
+      <option value="merkUpper" selected>Merk</option>
+      <option value="sorteerModel">Model</option>
+      <option value="Datums">Model jaar</option>
+      <option value="land">land</option>
+      <option value="prijs">Prijs</option>
+      <option value="vermogen">Vermogen</option>
+    </select>
+
+    <label
+      ><input
+        type="radio"
+        name="lopend"
+        value="1"
+        checked="checked"
+      />oplopend</label
+    >
+    <label><input type="radio" name="lopend" value="-1" />aflopend</label>
+    <div id="uitvoer"></div>
+
+    <script src="winkel.js" charset="utf-8"></script>
+
+  </body>
+</html>
